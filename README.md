@@ -1,1 +1,1 @@
-# HOSTS
+# Block Ad Web Internet
