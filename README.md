@@ -1,6 +1,5 @@
 <center> <h1> Block Ad Web Internet </h1> </center>
 
-___
 
 This repository helps you to improve your privacy and security by making a list of websites that are to be blocked which track the user advertisements. Providing advertisements is not a problem, as it helps the creator gain money, but its not right to track the user. As it cannot be distinguished, we try to block all the ads for our privacy and security concerns.
 
