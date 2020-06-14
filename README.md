@@ -45,14 +45,41 @@ The list can be used in many tools. The tools vary from browser based to hosts f
 * For Windows use [Hostman](http://www.abelhadigital.com/hostsman/) to edit the hosts file. Or can be edited manually, the hosts files is located at `c:\Windows\System32\Drivers\etc\hosts`.
 * In Linux the hosts is located at `/etc/hosts`.
 
-### To convert
 
-## TO-DO
-- [ ] Make the list of all the sites and domains.
+## FAQ
+
+> To convert the list to HOSTS
+
+```
+awk '{ printf "0.0.0.0"; print }' Block_List.txt > HOSTS.txt
+```
+
+> To Compare the present list with a new list, get the uncommon addresses and append it to the present list.
+
+```
+comm -13 <(sort main_list.txt) <(sort new_list.txt) >> main_list.txt
+```
+
+> To remove blank space in the beginning of the file
+
+```
+sed 's/ //g' file.txt > updated_file.txt
+```
+
+> To remove 0.0.0.0 from the HOSTS file
+
+```
+awk '{ if($1=="0.0.0.0") {$1= ""}; print }' file.txt > updated_file.txt
+```
+
+## TO-DO:
 - [ ] Make a list specifically for mobile devices.
-- [ ] Make a list HOSTS file which can be used for different operating systems.
 
 
 
 
 ## References
+* https://github.com/badmojr/1Hosts
+* https://tgc.cloud/downloads/
+* https://github.com/vokins/yhosts
+* https://github.com/hectorm/hblock
