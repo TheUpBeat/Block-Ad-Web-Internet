@@ -82,3 +82,4 @@ awk '{ if($1=="0.0.0.0") {$1= ""}; print }' file.txt > updated_file.txt
 * https://tgc.cloud/downloads/
 * https://github.com/vokins/yhosts
 * https://github.com/hectorm/hblock
+* https://github.com/StevenBlack/hosts
