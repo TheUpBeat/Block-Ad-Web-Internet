@@ -41,9 +41,10 @@ The list can be used in many tools. The tools vary from browser based to hosts f
 
 #### HOSTS:
 
-* For Windows use [Hostman](http://www.abelhadigital.com/hostsman/) to edit the hosts file. Or can be edited manually, the hosts files is located at `c:\Windows\System32\Drivers\etc\hosts`.
-* In Linux the hosts is located at `/etc/hosts`.
-
+* For Windows use [Hostman](http://www.abelhadigital.com/hostsman/) to edit the hosts file. Or can be edited manually, the hosts file is located at `c:\Windows\System32\Drivers\etc\hosts`.
+* For Linux use [hBlock](https://github.com/hectorm/hBlock). Or to edit manually, hosts file is located at `/etc/hosts`.
+* For Mac use [Gas Mask](https://github.com/2ndalpha/gasmask) to edit the hosts file. Or as it is a Unix-Based system the hosts file is located at `etc/hosts`
+* For Android use [Blokada](https://github.com/blokadaorg/blokada) or [AdGuard](https://adguard.com/en/adguard-android/overview.html). You can use [Energized Protection](https://energized.pro/) to edit the hosts from the terminal (And they also provide a good and extensive hosts list).
 
 ## FAQ
 
@@ -92,3 +93,4 @@ sed '/^#/d' Block_List.txt > hosts_duplicate.txt
 * https://www.github.developerdan.com/hosts/
 * https://someonewhocares.org/hosts/
 * https://github.com/jmdugan/blocklists
+* https://github.com/anudeepND/blacklist
