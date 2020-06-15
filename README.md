@@ -65,10 +65,16 @@ comm -13 <(sort Block_List.txt) <(sort hosts.txt) >> Block_List.txt
 sed 's/ //g' hosts.txt > hosts_duplicate.txt
 ```
 
-> To remove 0.0.0.0 from the HOSTS file
+> To remove 0.0.0.0 (or) 127.0.0.1 from the HOSTS file
 
 ```
-awk '{ if($1=="0.0.0.0") {$1= ""}; print }' Block_List.txt > hosts.txt
+awk '{ if($1=="0.0.0.0" || $1=="127.0.0.1") {$1= ""}; print }' hosts_duplicate.txt > hosts.txt
+```
+
+> To delete the lines that start "#"
+
+```
+sed '/^#/d' Block_List.txt > hosts_duplicate.txt
 ```
 
 ## TO-DO:
@@ -84,3 +90,5 @@ awk '{ if($1=="0.0.0.0") {$1= ""}; print }' Block_List.txt > hosts.txt
 * https://github.com/StevenBlack/hosts
 * https://github.com/deathbybandaid/piholeparser
 * https://www.github.developerdan.com/hosts/
+* https://someonewhocares.org/hosts/
+* https://github.com/jmdugan/blocklists
