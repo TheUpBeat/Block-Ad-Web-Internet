@@ -77,11 +77,11 @@ awk '{ if($1=="0.0.0.0") {$1= ""}; print }' file.txt > updated_file.txt
 - [ ] Filter List
 
 
-
-
 ## References
 * https://github.com/badmojr/1Hosts
 * https://tgc.cloud/downloads/
 * https://github.com/vokins/yhosts
 * https://github.com/hectorm/hblock
 * https://github.com/StevenBlack/hosts
+* https://github.com/deathbybandaid/piholeparser
+* https://www.github.developerdan.com/hosts/
