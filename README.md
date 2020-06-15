@@ -74,7 +74,6 @@ awk '{ if($1=="0.0.0.0") {$1= ""}; print }' file.txt > updated_file.txt
 ## TO-DO:
 - [ ] Make a list specifically for mobile devices.
 - [ ] Firewall Config
-- [ ] Filter List
 
 
 ## References
