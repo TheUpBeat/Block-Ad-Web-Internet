@@ -56,19 +56,19 @@ awk '{ printf "0.0.0.0"; print }' Block_List.txt > HOSTS.txt
 > To Compare the present list with a new list, get the uncommon addresses and append it to the present list.
 
 ```
-comm -13 <(sort main_list.txt) <(sort new_list.txt) >> main_list.txt
+comm -13 <(sort Block_List.txt) <(sort hosts.txt) >> Block_List.txt
 ```
 
 > To remove blank space in the beginning of the file
 
 ```
-sed 's/ //g' file.txt > updated_file.txt
+sed 's/ //g' hosts.txt > hosts_duplicate.txt
 ```
 
 > To remove 0.0.0.0 from the HOSTS file
 
 ```
-awk '{ if($1=="0.0.0.0") {$1= ""}; print }' file.txt > updated_file.txt
+awk '{ if($1=="0.0.0.0") {$1= ""}; print }' Block_List.txt > hosts.txt
 ```
 
 ## TO-DO:
