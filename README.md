@@ -94,3 +94,5 @@ sed '/^#/d' Block_List.txt > hosts_duplicate.txt
 * https://someonewhocares.org/hosts/
 * https://github.com/jmdugan/blocklists
 * https://github.com/anudeepND/blacklist
+* https://github.com/jdlingyu/ad-wars/
+* https://github.com/PolishFiltersTeam/KADhosts
