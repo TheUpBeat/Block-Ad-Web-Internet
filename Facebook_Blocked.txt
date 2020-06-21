@@ -23,7 +23,9 @@
 0.facebook.com
 0.facebook.com.cgi-bin.nph-roxy.cgi.0.http.0.facebook.com
 0.fb.me
+0.freebasics.com
 0.indosat.com.0.facebook.com
+0.internet.org
 0.messenger.com
 10c2yy8u.dns.facebook.com
 1197009923753644.apps.fbsbx.com
@@ -4957,6 +4959,7 @@ indosat.0.facebook.com
 indosat.fb.me
 indosatooredoo.messenger.com
 indstate.facebook.com
+info.freebasics.com
 info.internet.org
 initiatives.france.fb.com
 in.messenger.com
@@ -6666,6 +6669,7 @@ oculus-pp-shv-01-sin6.fbcdn.net
 oculusweb.fb.com
 oculus.xx.fbcdn.net
 o.facebook.com
+o.freebasics.com
 ohio.facebook.com
 o.internet.org
 oit.facebook.com
@@ -10186,6 +10190,7 @@ z-m-video-syd.xx.fbcdn.net
 z-m-video-tpe.xx.fbcdn.net
 z-m-video-vie.xx.fbcdn.net
 z-m-video-waw.xx.fbcdn.net
+z-m-video.xx.fbcdn.net
 z-m-video-yyz.xx.fbcdn.net
 z-m-www.facebook.com
 zona.fb.com
