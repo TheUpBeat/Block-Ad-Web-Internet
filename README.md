@@ -78,9 +78,12 @@ awk '{ if($1=="0.0.0.0" || $1=="127.0.0.1") {$1= ""}; print }' hosts_duplicate.t
 sed '/^#/d' Block_List.txt > hosts_duplicate.txt
 ```
 
+## For iptable rules and ipsets (still under development), check this repo:
+https://github.com/TheUpBeat/Firewall-Lists
+
 ## TO-DO:
 - [ ] Make a list specifically for mobile devices.
-- [ ] Firewall Config
+- [x] Firewall Config
 
 
 ## References
@@ -96,3 +99,4 @@ sed '/^#/d' Block_List.txt > hosts_duplicate.txt
 * https://github.com/anudeepND/blacklist
 * https://github.com/jdlingyu/ad-wars/
 * https://github.com/PolishFiltersTeam/KADhosts
+* https://block.energized.pro/blu/formats/hosts
